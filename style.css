@@ -1,0 +1,36 @@
+/*The main outline of the calculator*/
+.calc {
+  width: 400px;
+  height: 570px;
+  background: #050517;
+  margin-left: 400px;
+}
+/* Calculator Screen*/
+#screen {
+  width: 85%;
+  margin-left: 27px;
+  margin-top: 28px;
+  height: 80px;
+  pointer-events: none;
+  background-color: #f3e8ee;
+}
+/*Button styles*/
+.btn {
+  height: 50px;
+  width: 50px;
+  margin-left: 38px;
+  margin-top: 20px;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+/*To change the width of first row*/
+#row1 {
+  margin-top: 75px;
+}
+/*Change the clear button colour to red*/
+#c-btn {
+  background-color: #b80000;
+  border: solid 1px black;
+  border-radius: 5px;
+  color: white;
+}
