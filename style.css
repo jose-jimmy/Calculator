@@ -1,9 +1,21 @@
+/*Main Body*/
+.main {
+  height: 100%;
+  width: 100%;
+  background-image: repeating-linear-gradient(
+    45deg,
+    red,
+    red 10px,
+    blue 10px,
+    blue 20px
+  );
+}
 /*The main outline of the calculator*/
 .calc {
   width: 400px;
-  height: 570px;
+  height: 610px;
   background: #050517;
-  margin-left: 400px;
+  margin-left: 450px;
 }
 /* Calculator Screen*/
 #screen {
@@ -13,6 +25,8 @@
   height: 80px;
   pointer-events: none;
   background-color: #f3e8ee;
+  border-radius: 5px;
+  border-color: grey;
 }
 /*Button styles*/
 .btn {
