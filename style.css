@@ -1,7 +1,11 @@
 /*Main Body*/
 .head {
-  height: 100%;
-  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
   background-image: repeating-linear-gradient(
     45deg,
     red,
@@ -52,6 +56,3 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
-
-
